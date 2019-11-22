@@ -3,12 +3,14 @@ import React from 'react';
 
 import './Home.css';
 import Nav from '../Nav/Nav';
+import SearchBar from '../SearchBar/SearchBar';
 
 function Home() {
   return (
     <div className="homebody">
       <header className="header">
           <Nav />
+          <SearchBar />
       </header>
     </div>
   );
