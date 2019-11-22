@@ -1,0 +1,46 @@
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(184, 184, 184);
+    border: 1px solid white;
+    padding: 15px;
+    
+}
+
+.span {
+    color: rgb(118, 143, 123);
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(23, 23, 31, 0.89);
+    color: #ffffff;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px;
+
+}
+
+.link a {
+    display: block;
+    color: whitesmoke;
+    padding: 8px 16px;
+    text-decoration: whitesmoke;
+  }
+  
+  /* Change the link color on hover */
+  .link a:hover {
+    border-radius: 15px;
+    border: none;
+    background-color: #555;
+    color: white;
+    text-decoration-color: gray;
+  }
