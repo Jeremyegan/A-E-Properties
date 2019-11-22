@@ -7,9 +7,8 @@ import Nav from '../Nav/Nav';
 function Home() {
   return (
     <div className="homebody">
-      <Nav />
       <header className="header">
-          
+          <Nav />
       </header>
     </div>
   );
