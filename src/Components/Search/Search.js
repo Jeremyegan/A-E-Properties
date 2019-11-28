@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Nav from '../Nav/Nav';
+import SearchBar from '../SearchBar/SearchBar';
 
 import './Search.css';
 
@@ -8,7 +9,8 @@ class Search extends Component {
     return (
         <div className="searchbody">
           <Nav />
-          SEARCH
+          <br />
+          <SearchBar />
         </div>
       );
   }

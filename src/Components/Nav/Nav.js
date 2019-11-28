@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 export default function Nav() {
         return(
-            <ul className="ul">
+            <ul className="navBody">
                 <li className="link"><Link to="/">Home</Link></li>
                 <li className="link"><Link to="/search">Search</Link></li>
                 <li className="link"><Link to="/favorites">Favorites</Link></li>
