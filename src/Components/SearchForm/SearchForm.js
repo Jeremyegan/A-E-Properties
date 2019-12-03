@@ -41,6 +41,7 @@ export default function SearchForm() {
                                 <a href="#">Link 3</a>
                             </div>
                     </div>
+                    <div className="section1">
                     <div class="frontpagedropdown">
                         <button class="dropbtn">Price (min)</button>
                             <div id="myDropdown" class="dropdown-content">
@@ -57,6 +58,8 @@ export default function SearchForm() {
                                 <a href="#">Link 3</a>
                             </div>
                     </div>
+                    </div>
+                    <div className="section1">
                     <div class="frontpagedropdown">
                         <button class="dropbtn">Bedrooms</button>
                             <div id="myDropdown" class="dropdown-content">
@@ -72,6 +75,7 @@ export default function SearchForm() {
                                 <a href="#">Link 2</a>
                                 <a href="#">Link 3</a>
                             </div>
+                    </div>
                     </div>
                     <button class="frontpagedropdown" style={{backgroundColor: "rgb(231, 125, 143)", color: "white"}}>Search</button>
                     <button class="frontpagedropdown" style={{backgroundColor: "rgb(231, 125, 143)", color: "white"}}>Map</button>

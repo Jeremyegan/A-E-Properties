@@ -16,7 +16,7 @@
     align-items: space-around;
     width: 100vw;
     max-height: inherit;
-    border: 2px solid orange;
+    
 }
 
 .dropdown::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -86,3 +86,4 @@
   .dropdown:hover .dropbtn {
     background-color: #f9f9f9;
   }
+
